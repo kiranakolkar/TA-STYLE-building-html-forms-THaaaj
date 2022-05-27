@@ -7,14 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Background gradient</title>
     <link rel="stylesheet" href="index.css">
-    <script src="https://kit.fontawesome.com/7c3064fcd2.js" crossorigin="anonymous"> </script>
+    <script src="https://kit.fontawesome.com/3581c9f183.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Quicksand&family=Roboto:wght@400;700&display=swap"
         rel="stylesheet">
 </head>
-<header class="smallcontainer flex">
+<header class="container flex navbar">
     <div class="logo">
         <img src="assets/logo.png" alt="logo">
         <h1>JOURNEY</h1>
@@ -29,11 +29,151 @@
     </nav>
 </header>
 <!-- /*Lets Begin*/ -->
-<section>
-    <h1>LET'S BEGIN</h1>
-    
-</section>
+<main>
 
+    <div class="container">
+        <!-- Herosection -->
+          <section class="hero">
+                    <h1 class="hero-heading">LET'S BEGIN</h1>
+                    <div class="center flex coloum">
+                        <div class="dot"></div>
+                        <div class="dot-active"></div>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="hero-subheading">
+                        <h4>We assist you to choes the best.</h4>
+                    </div>
+                    <div class="icon-box">
+                        <i class="fa-solid fa-circle-chevron-down"></i>
+                    </div>
+                    <form action="" class="flex item-start">
+                        <fieldset class="flex-46">
+                            <label for="destination">Choes your Destination</label>
+                            <input class="form-control" type="text" id="destination" name="destination" placeholder="Type your destination">
+                            <div class="flex margin-top">
+                                <div>
+                                    <label for="Check-in">Check in Date</label>
+                                    <input class="form-control" type="date" name="date" placeholder="Check In" id="Check-in">
+                                    
+                                </div>
+                                <div>
+                                    <label for="Check-out">Check out Date</label>
+                                    <input class="form-control" type="date" name="date" placeholder="Check out" id="Check-out">
+                                </div>
+                               
+                            </div>
+                        </fieldset>
+                        <fieldset class="flex-46">
+                            <div class="flex">
+                                <div>
+                                        <label for="room">How many rooms?</label>
+                                        <select class="form-control" name="room" id="room">
+                                            <option value="">1-room</option>
+                                            <option value="">2-room</option>
+                                            <option value="">3-room</option>
+                                            <option value="">4-room</option>
+                                            <option value="">5-room</option>
+                                        </select>
+                                </div>
+                                <div>
+                                    <label for="adult">Adults</label>
+                                    <select class="form-control" name="adult" id="adult">
+                                        <option value="">1</option>
+                                        <option value="">2</option>
+                                        <option value="">3</option>
+                                        <option value="">4</option>
+                                        <option value="">5</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="Children">Children</label>
+                                    <select class="form-control" name="Children" id="Children">
+                                        <option value="">0</option>
+                                        <option value="">1</option>
+                                        <option value="">2</option>
+                                        <option value="">3</option>
+                                        <option value="">4</option>
+                                    </select>
+                                </div>
+                            
+                            
+                            </div>
+                            <input class="btn btn-primary margin-top" type="submit" value="Check availability">
+                        </fieldset>
+                        
+                        
+                    </form>
+                    
+          </section>
+          <!-- About -->
+          <section class="padding text-align about">
+              <div class="about-wrapper">
+                <h2>YOUR <strong class="strong">JOURNEY</strong> IS OUR PRIORITY</h2>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero tempore dicta expedita consectetur nulla commodi,
+                    voluptatem inventore cupiditate nobis tempora!
+                    Reprehenderit dolores atque fugit odio amet vitae sed esse eius.</P>
+                <a class="btn btn-primary" href="#">Continue Explore</a>
+              </div>
+             
+          </section>
+         <!-- blog  -->
+         <section class="blog container">
+            <article class="flex">
+                <div class="flex-50 font-0 article-col-left">
+                    <img class="blog-image" src="assets/tm-img-01.jpg" alt="01">
+                    <div class="justify-end nav-btn-container">
+                      <div class="nav-btn center">
+                        <div class="nav-btn-icon">
+                            <i class="fa-solid fa-angle-left"></i>
+                        </div>
+                      </div>
+                      <div class="nav-btn center">
+                        <div class="nav-btn-icon">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="flex-50 article-col-right">
+                    <h3>Europe most visited places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                       Ipsa eaque nulla molestiae sequi deserunt, voluptatum qui voluptatibus amet? Aliquid repellat quisquam aut excepturi nemo ipsum, 
+                       facere laudantium dignissimos est numquam?</p>
+                       <a class="btn blogbutton" href="#">Continue Heading</a>
+                </div>
+            </article>
+            <article class="flex">
+                
+                <div class="flex-50 article-col-right left">
+                    <h3>Europe most visited places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Ipsa eaque nulla molestiae sequi deserunt, voluptatum qui voluptatibus amet? Aliquid repellat quisquam aut
+                        excepturi nemo ipsum,
+                        facere laudantium dignissimos est numquam?</p>
+                    <a class="btn blogbutton" href="#">Continue Heading</a>
+                </div>
+                <div class="flex-50 font-0 article-col-left right">
+                    <img class="blog-image" src="assets/tm-img-01.jpg" alt="01">
+                    <div class="justify-end nav-btn-container">
+                        <div class="nav-btn center">
+                            <div class="nav-btn-icon">
+                                <i class="fa-solid fa-angle-left"></i>
+                            </div>
+                        </div>
+                        <div class="nav-btn center">
+                            <div class="nav-btn-icon">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+         </section>
+    </div>
+   
+    
+
+</main>
 <body>
 
 
